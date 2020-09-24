@@ -46,6 +46,8 @@ a {
     margin-left: 100px;
 }
 
+/* Main */
+
 main {
     display: flex;
     background-image: url("../img/bg.png");
@@ -75,6 +77,31 @@ main {
     font-size: 20px;
     margin-right: 350px;
 }
+
+/* Section 1 */
+
+#section1 {
+    background-color: #bf964b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#plat1 {
+    margin-top: 50px;
+}
+
+#title2, #p1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 0px 280px;
+    font-size: 40px;
+}
+
+/* Polices */
 
 .ptsans {
     font-family: 'PT Sans', sans-serif;

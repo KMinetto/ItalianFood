@@ -81,7 +81,6 @@ main {
 /* Section 1 */
 
 #section1 {
-    background-color: #bf964b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +100,56 @@ main {
     font-size: 40px;
 }
 
-/* Polices */
+#p1 {
+    font-size: 26px;
+}
+
+/* Section 2 */
+
+#section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+#fork {
+    margin-left: 100px;
+}
+
+#title3, #p2 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 0px 200px;
+    font-size: 40px;
+}
+
+#p2 {
+    font-size: 26px;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #bf964b;
+    padding: 20px;
+    width: 130px;
+    font-size: 20px;
+    margin-left: 200px;
+
+}
+
+/* Polices | Style */
+
+.yellow {
+    background-color: #bf964b;
+}
+
+.green {
+    background-color:  #736c4d;
+}
 
 .ptsans {
     font-family: 'PT Sans', sans-serif;

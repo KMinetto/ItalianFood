@@ -11,7 +11,7 @@ body {
 /* Header */
 
 header {
-    background-color: #736c4d;
+    background-color: #837b58;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -220,10 +220,78 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'Nunito', sans-serif;
     color: white;
     font-size: 80px;
 }
+
+/* Section 7 */
+
+#section7 {
+    display: flex;
+    position: relative;
+    background-image: url("../img/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#shadow {
+    background-color: rgba(107, 100, 72, .5);
+    height: 100%;
+    width: 35%;
+}
+
+#adress {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50%;
+    width: 100%;
+}
+
+#find {
+    width: 100%;
+}
+
+#title6 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#buenos {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+#hour {
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.pin1 {
+    position: absolute;
+    top: 40%;
+    left: 68%;
+    margin-left: -115px;
+    
+    border-radius: 50% 50% 50% 0;
+    border: 5px solid #706c50;
+    width: 40px;
+    height: 40px;
+    transform: rotate(-45deg);
+  }
+
+  .pin1::after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    background-color: #706c50;
+  }
 
 /* Polices | Style */
 
@@ -244,5 +312,9 @@ main {
 }
 
 .antic {
-    font-family: 'Antic Didone', serif, 'PT Sans', sans-seri;
+    font-family: 'Antic Didone', serif, 'PT Sans', sans-serif;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
 }

@@ -195,7 +195,7 @@ main {
     font-family: 'Nunito', sans-serif;
     background-color: white;
     color: black;
-    font-size: 80px;
+    font-size: 110px;
     height: 180px;
     border-radius: 5px;
 }
@@ -203,6 +203,15 @@ main {
 #title5 {
     font-size: 80px;
 }
+
+/* Section 5 */
+
+#section5 {
+    background-image: url("../img/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Polices | Style */
 
 .screen {

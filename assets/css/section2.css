@@ -8,6 +8,7 @@
     
     #fork {
     margin-left: 100px;
+    box-shadow: 10px 5px 5px #000000;
     }
     
     #title3, #p2 {
@@ -36,7 +37,7 @@
     }
     
     #contact:hover {
-        background: linear-gradient(to bottom right, #736c4d, #8a8057 );
+        background: linear-gradient(to bottom right, #736c4d, #afa16a);
         border-color: #bf964b;
     }
     

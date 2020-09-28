@@ -8,34 +8,83 @@ main {
     align-items: center;
     min-height: 100vh;
     height: 100%;
-    }
-    
-    #title_text {
+}
+
+#title_text {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 580px;
     width: 100%;
-    }
-    
-    #title1 {
+}
+
+#title1 {
     color: white;
     width: 50%;
     font-size: 80px;
     margin-left: 350px;
-    }
-    
-    #book {
+}
+
+#book {
     background-color: #bf964b;
     border: 3px solid #4E3D35;
+    cursor: pointer;
+    color: white;
     height: 100%;
     padding: 20px;
     font-size: 20px;
     margin-right: 350px;
     transition-duration: 0.7s;
-    }
+}
+
+#book:hover {
+    background: linear-gradient(to bottom right, #4E3D35, #826048);
+    border: 3px solid #826048;
+}
+
+#logo {
     
-    #book:hover {
-        background: linear-gradient(to bottom right, #4E3D35, #826048);
-        border: 3px solid #826048;
+}
+
+@media screen and (max-width: 1167px) {
+    main {
+        height: 100vh;
     }
+    #title_text {
+        position: relative;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    #title1 {
+        position: absolute;
+        margin-left: 0;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-size: 120px;
+    }
+    #book {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        margin-top: 280px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    #title1 {
+        font-size: 90px;
+    }
+    #book {
+        margin-top: 230px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #title1 {
+        font-size: 64px;
+    }
+}

@@ -2,6 +2,10 @@
 box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 margin: 0;
 padding: 0;
@@ -54,7 +58,8 @@ background-image:   linear-gradient(rgb(0, 0, 0), rgba(122, 121, 121, 0.3)),
                     url("../img/bg.png");
 background-size: cover;
 align-items: center;
-height: 100vh;
+min-height: 100vh;
+height: 100%;
 }
 
 #title_text {
@@ -149,8 +154,8 @@ transition-duration: 1.2s;
 }
 
 #contact:hover {
-    background: linear-gradient(to bottom right, #4E3D35, #826048 );
-    border-color: #826048;
+    background: linear-gradient(to bottom right, #736c4d, #8a8057 );
+    border-color: #bf964b;
 }
 
 /* Section 3 */
@@ -186,6 +191,10 @@ justify-content: space-evenly;
 text-align: center;
 }
 
+#spaguetti, #mousse, #lasagna {
+    box-shadow: 10px 5px 5px #000000;
+}
+
 #first {
 display: flex;
 align-items: center;
@@ -209,6 +218,7 @@ justify-content: center;
 font-family: 'Nunito', sans-serif;
 background-color: white;
 color: #736c4d;
+box-shadow: 10px 5px 5px #000;
 font-size: 110px;
 font-weight: bold;
 height: 180px;
@@ -308,7 +318,7 @@ background-color: #706c50;
 
 /* Section 7 */
 
-#section8 {
+#footer {
     height: 100vh;
 }
 
@@ -335,6 +345,61 @@ background-color: #706c50;
 .list {
     list-style: none;
 }
+
+.grid {
+    height: 75%;
+    align-items: center;
+}
+
+#about_us {
+    display: flex;
+    color: white;
+    height: 75%;
+    font-size: 26px;
+}
+
+#important {
+    width: 50%;
+    padding: 0 10%;
+    margin-top: 10%;
+}
+
+.second {
+    width: 25%;
+    padding: 0 5%;
+    list-style: none;
+    margin-top: 10%;
+}
+
+.span-col-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+    margin-bottom: 20px;
+}
+
+.span-col-3 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #BF964B;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.head, .foot {
+    height: 150px;
+}
+
+.foot {
+    display: flex;
+    align-self: flex-end;
+}
+
 /* Polices | Style */
 
 .screen {

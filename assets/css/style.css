@@ -61,6 +61,12 @@ margin-left: 100px;
     }
 }
 
+@media screen and (max-width: 931px) {
+    nav span {
+        margin-right: 30px;
+    };
+}
+
 @media screen and (max-width: 890px) {
     nav {
         flex-wrap: wrap;

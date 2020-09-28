@@ -1,0 +1,67 @@
+/* Section 7 */
+
+#section7 {
+    display: flex;
+    background-image: url("../img/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    #shadow {
+    background-color: rgba(107, 100, 72, .5);
+    height: 100%;
+    width: 35%;
+    }
+    
+    #adress {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50%;
+    width: 100%;
+    }
+    
+    #find {
+    width: 100%;
+    }
+    
+    #title6 {
+    font-weight: bold;
+    font-size: 60px;
+    }
+    
+    #buenos {
+    font-size: 26px;
+    margin-bottom: 0;
+    }
+    
+    #hour {
+    margin-top: 0;
+    font-size: 36px;
+    }
+    
+    .pin1 {
+    position: relative;
+    top: 40%;
+    left: 68%;
+    margin-left: -115px;
+    
+    border-radius: 50% 50% 50% 0;
+    border: 5px solid #706c50;
+    width: 40px;
+    height: 40px;
+    transform: rotate(-45deg);
+    }
+    
+    .pin1::after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    background-color: #706c50;
+    }

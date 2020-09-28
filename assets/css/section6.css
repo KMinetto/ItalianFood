@@ -1,0 +1,10 @@
+/* section 6 */
+
+#section6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    }

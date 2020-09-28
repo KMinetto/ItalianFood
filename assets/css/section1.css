@@ -1,0 +1,23 @@
+/* Section 1 */
+
+#section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    #plat1 {
+    margin-top: 50px;
+    }
+    
+    #title2, #p1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 280px;
+    font-size: 40px;
+    }
+    
+    #p1 {
+    font-size: 26px;
+    }

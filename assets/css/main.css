@@ -1,0 +1,41 @@
+/* Main */
+
+main {
+    display: flex;
+    background-image:   linear-gradient(rgb(0, 0, 0), rgba(122, 121, 121, 0.3)),
+                        url("../img/bg.png");
+    background-size: cover;
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+    }
+    
+    #title_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 580px;
+    width: 100%;
+    }
+    
+    #title1 {
+    color: white;
+    width: 50%;
+    font-size: 80px;
+    margin-left: 350px;
+    }
+    
+    #book {
+    background-color: #bf964b;
+    border: 3px solid #4E3D35;
+    height: 100%;
+    padding: 20px;
+    font-size: 20px;
+    margin-right: 350px;
+    transition-duration: 0.7s;
+    }
+    
+    #book:hover {
+        background: linear-gradient(to bottom right, #4E3D35, #826048);
+        border: 3px solid #826048;
+    }

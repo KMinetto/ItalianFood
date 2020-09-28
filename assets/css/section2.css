@@ -1,0 +1,42 @@
+/* Section 2 */
+
+#section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    
+    #fork {
+    margin-left: 100px;
+    }
+    
+    #title3, #p2 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 0 300px;
+    font-size: 40px;
+    }
+    
+    #p2 {
+    font-size: 26px;
+    }
+    
+    #contact {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #bf964b;
+    border: 3px solid #4E3D35;
+    padding: 15px;
+    width: 130px;
+    font-size: 20px;
+    margin-left: 300px;
+    transition-duration: 1.2s;
+    }
+    
+    #contact:hover {
+        background: linear-gradient(to bottom right, #736c4d, #8a8057 );
+        border-color: #bf964b;
+    }
+    

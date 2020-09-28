@@ -1,0 +1,60 @@
+/* Section 4 */
+
+#section4 {
+    color: white;
+    }
+    
+    #title4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    font-size: 80px;
+    }
+    
+    #dishes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    }
+    
+    #spaguetti, #mousse, #lasagna {
+        box-shadow: 10px 5px 5px #000000;
+    }
+    
+    #first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    #code {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-size: 30px;
+    }
+    
+    #price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    color: #736c4d;
+    box-shadow: 10px 5px 5px #000;
+    font-size: 110px;
+    font-weight: bold;
+    height: 180px;
+    border-radius: 5px;
+    }
+    
+    #title5 {
+    font-size: 80px;
+    }

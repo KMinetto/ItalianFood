@@ -4,4 +4,9 @@
     background-image: url("../img/bg2.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+@media screen and (max-width: 1070px) {
+    #section5 {
+        height: 100%;
     }
+}

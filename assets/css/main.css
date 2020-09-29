@@ -44,7 +44,7 @@ main {
 
 @media screen and (max-width: 1167px) {
     main {
-        height: 100vh;
+        height: 100%;
     }
     #title_text {
         position: relative;

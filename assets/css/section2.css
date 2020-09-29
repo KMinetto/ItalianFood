@@ -4,40 +4,96 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    }
-    
-    #fork {
+}
+
+#fork {
     margin-left: 100px;
     box-shadow: 10px 5px 5px #000000;
-    }
-    
-    #title3, #p2 {
+}
+
+#title3, #p2 {
     display: flex;
     justify-content: space-around;
     color: white;
     padding: 0 300px;
     font-size: 40px;
-    }
-    
-    #p2 {
+}
+
+#p2 {
     font-size: 26px;
-    }
-    
-    #contact {
+}
+
+#contact {
     display: flex;
     align-items: center;
     color: white;
     background-color: #bf964b;
     border: 3px solid #4E3D35;
+    white-space: nowrap;
     padding: 15px;
     width: 130px;
     font-size: 20px;
     margin-left: 300px;
     transition-duration: 1.2s;
-    }
+}
     
-    #contact:hover {
-        background: linear-gradient(to bottom right, #736c4d, #afa16a);
-        border-color: #bf964b;
+#contact:hover {
+    background: linear-gradient(to bottom right, #736c4d, #afa16a);
+    border-color: #bf964b;
+}
+
+@media screen and (max-width: 1690px) {
+    #title3, #p2 {
+        padding-left: 50px;
+        text-align: center;
     }
+    #contact {
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width: 1555px) {
+    #contact {
+        margin-left: 180px;
+    }
+}
+@media screen and (max-width: 1370px) {
+    #section2 {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        position: static;
+        height: 100%;
+    }
+    #fork {
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    #title3, #p2 {
+        margin: 50px auto;
+        padding: 0 30%;
+    }
+    #contact {
+        position: static;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 50%;
+        z-index: 0;
+        transform: translateX(-50%);
+    }
+    header {
+        position: static;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #p2, #title3 {
+        padding: 0 10%;
+    }
+    #contact {
+        margin-bottom: 20px;
+    }
+    #fork {
+        height: 400px;
+        width: 400px;
+    }
+}
     

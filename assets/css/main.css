@@ -25,11 +25,15 @@ main {
     margin-left: 350px;
 }
 
+#the {
+    font-size: 52px;
+}
+
 #book {
     background-color: #bf964b;
-    border: 3px solid #4E3D35;
     cursor: pointer;
     color: white;
+    border: none;
     height: 100%;
     padding: 20px;
     font-size: 20px;
@@ -37,11 +41,13 @@ main {
     transition-duration: 0.7s;
 }
 
-#book:hover {
-    background: linear-gradient(to bottom right, #4E3D35, #826048);
-    border: 3px solid #826048;
-}
+/** Responsive **/
 
+@media screen and (max-width: 1370px) {
+    #plat1 {
+        height: 700px;
+    }
+}
 @media screen and (max-width: 1167px) {
     main {
         height: 100%;

@@ -28,19 +28,17 @@
     align-items: center;
     color: white;
     background-color: #bf964b;
-    border: 3px solid #4E3D35;
     white-space: nowrap;
+    cursor: pointer;
+    border: none;
     padding: 15px;
     width: 130px;
     font-size: 20px;
     margin-left: 300px;
-    transition-duration: 1.2s;
+    transition-duration: 0.5s;
 }
-    
-#contact:hover {
-    background: linear-gradient(to bottom right, #736c4d, #afa16a);
-    border-color: #bf964b;
-}
+
+/* Responsive */
 
 @media screen and (max-width: 1690px) {
     #title3, #p2 {
@@ -83,6 +81,11 @@
     }
     header {
         position: static;
+    }
+}
+@media screen and (max-width: 1370px) {
+    #contact {
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 1000px) {

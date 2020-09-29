@@ -2,9 +2,9 @@
 
 #section4 {
     color: white;
-    }
-    
-    #title4 {
+}
+
+#title4 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,26 +12,26 @@
     margin-bottom: 100px;
     padding-top: 100px;
     font-size: 80px;
-    }
-    
-    #dishes {
+}
+
+#dishes {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    }
-    
-    #spaguetti, #mousse, #lasagna {
+}
+
+#spaguetti, #mousse, #lasagna {
         box-shadow: 10px 5px 5px #000000;
-    }
-    
-    #first {
+}
+
+#first {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    }
-    
-    #code {
+}
+
+#code {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -39,9 +39,9 @@
     margin-left: 300px;
     margin-top: 30px;
     font-size: 30px;
-    }
-    
-    #price {
+}
+
+#price {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,8 +53,72 @@
     font-weight: bold;
     height: 180px;
     border-radius: 5px;
-    }
-    
-    #title5 {
+}
+
+#title5 {
     font-size: 80px;
+}
+@media screen and (max-width: 1323px) {
+    #book {
+        margin-right: 150px;
     }
+    #code {
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 1173px) {
+    #code {
+        font-size: 22px;
+        margin-left: 75px;
+    }
+    #title5 {
+        font-size: 60px;
+    }
+
+}
+@media screen and (max-width: 1070px) {
+    #section4 {
+        height: 100%;
+    }
+    #dishes {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 663px) {
+    #title4 {
+        font-size: 52px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #image2 {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 639px) {
+    #section4 {
+        height: 100%;
+    }
+    #first {
+        position: relative;
+    }
+    #image2 {
+        position: absolute;
+        height: 50%;
+        top: 50%;
+        right: 0;
+        top: 170px;
+    }
+    #code {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    #title5 {
+        font-size: 36px;
+    }
+    #price {
+        font-size: 70px;
+        height: 130px;
+        width: 220px;
+        margin-left: 50px;
+    }
+}

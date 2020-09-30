@@ -81,3 +81,34 @@
     display: flex;
     align-self: flex-end;
 }
+
+@media screen and (max-width: 1385px) {
+    #footer {
+        height: 100%;
+    }
+    .second, #important {
+        font-size: 16px;
+    }
+    footer h2 {
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 655px){
+     #about_us {
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+     }
+    .second h2 {
+        padding-left: 25px;
+    }
+    .second {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 510px) {
+    .second h2 {
+        padding-left: 10px;
+    }
+}

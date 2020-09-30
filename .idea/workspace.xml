@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba238633-1b72-402a-baf7-0395e12cc40b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/section7.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/section7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
@@ -42,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601448411532</updated>
-      <workItem from="1601448412788" duration="5152000" />
+      <workItem from="1601448412788" duration="7896000" />
     </task>
     <servers />
   </component>
@@ -50,6 +51,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1692" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1601457616298">
+      <screen x="1600" y="0" width="1366" height="728" />
+    </state>
+    <state x="1692" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1600.860/1600.0.1366.728@1600.0.1366.728" timestamp="1601457616298" />
     <state x="1784" y="9" key="SettingsEditor" timestamp="1601450736877">
       <screen x="1600" y="0" width="1366" height="728" />
     </state>
@@ -58,5 +63,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="157" y="183" width="1255" height="597" key="dock-window-1/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1601449637237" />
+    <state x="1939" y="162" key="run.anything.popup" timestamp="1601457084797">
+      <screen x="1600" y="0" width="1366" height="728" />
+    </state>
+    <state x="1939" y="162" key="run.anything.popup/0.0.1600.860/1600.0.1366.728@1600.0.1366.728" timestamp="1601457084797" />
   </component>
 </project>
